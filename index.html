@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aevion Pro Support</title>
+  <style>
+    :root {
+      --bg: #070B14;
+      --card: rgba(255, 255, 255, 0.06);
+      --card-border: rgba(255, 255, 255, 0.10);
+      --text: #ffffff;
+      --muted: rgba(255, 255, 255, 0.68);
+      --soft: rgba(255, 255, 255, 0.46);
+      --blue: #4DA3FF;
+      --orange: #FF8A1F;
+      --green: #34C759;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(77, 163, 255, 0.22), transparent 32%),
+        radial-gradient(circle at top right, rgba(255, 138, 31, 0.16), transparent 28%),
+        linear-gradient(180deg, #0B1020 0%, var(--bg) 100%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 28px;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 56px 0 28px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border: 1px solid var(--card-border);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 78px);
+      line-height: 0.95;
+      margin: 0;
+      letter-spacing: -0.06em;
+    }
+
+    .hero-text {
+      max-width: 650px;
+      margin: 22px auto 0;
+      color: var(--muted);
+      font-size: 19px;
+      line-height: 1.55;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 30px 0 42px;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 28px;
+      padding: 28px;
+      margin: 18px 0;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+      backdrop-filter: blur(18px);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+      letter-spacing: -0.03em;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 18px;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .mini {
+      padding: 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.045);
+      border: 1px solid rgba(255, 255, 255, 0.075);
+    }
+
+    .mini strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--blue);
+    }
+
+    .support-email {
+      display: inline-flex;
+      margin-top: 10px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--blue), var(--orange));
+      padding: 13px 18px;
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--soft);
+      padding: 30px 0 12px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      body { padding: 18px; }
+      section { padding: 22px; border-radius: 24px; }
+      .grid { grid-template-columns: 1fr; }
+      header { padding-top: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Aevion Pro · Support & Legal</div>
+      <h1>Aevion Pro</h1>
+      <p class="hero-text">
+        Aevion Pro is a local-first CRM app designed to help manage car rental and locksmith business workflows, including projects, clients, inventory, reminders, invoices, payments, contracts, and backups.
+      </p>
+    </header>
+
+    <nav>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Use</a>
+      <a href="#permissions">Permissions</a>
+      <a href="#backup">Backup</a>
+      <a href="#support">Support</a>
+    </nav>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p><strong>Last updated:</strong> May 4, 2026</p>
+
+      <h3>Local Data Storage</h3>
+      <p>
+        Aevion Pro stores business data locally on your device. This may include projects, clients, vehicles, locksmith jobs, inventory, receipts, payment records, invoices, contracts, reminders, notes, templates, and backup files.
+      </p>
+
+      <h3>No Developer Access</h3>
+      <p>
+        The developer does not have access to your app data. Aevion Pro does not upload your business records to a developer server.
+      </p>
+
+      <h3>No Tracking or Analytics</h3>
+      <p>
+        Aevion Pro does not track your activity across other apps or websites. The app does not use third-party advertising tracking or third-party analytics services.
+      </p>
+
+      <h3>No Data Sharing</h3>
+      <p>
+        Aevion Pro does not sell, share, or transfer your personal or business data to third parties.
+      </p>
+
+      <h3>User Control</h3>
+      <p>
+        You are responsible for managing and protecting your data. The app may provide backup export and import features so you can save your own backup files using Apple Files, iCloud Drive, On My iPhone, AirDrop, or other destinations available on your device.
+      </p>
+    </section>
+
+    <section id="permissions">
+      <h2>Permissions & Data Usage</h2>
+      <p>
+        Aevion Pro only asks for permissions when a related feature is used. Permissions are not requested on launch unless required by a feature you choose to enable.
+      </p>
+
+      <div class="grid">
+        <div class="mini">
+          <strong>Photos</strong>
+          <p>Used to select images such as payment QR codes, receipts, vehicle photos, project attachments, or client documents.</p>
+        </div>
+        <div class="mini">
+          <strong>Camera</strong>
+          <p>Used to take photos for receipts, documents, vehicles, inventory, or project records when you choose to capture an image.</p>
+        </div>
+        <div class="mini">
+          <strong>Files</strong>
+          <p>Used to export and import backup files, invoices, contracts, receipts, or other documents through the iOS Files system.</p>
+        </div>
+        <div class="mini">
+          <strong>Notifications</strong>
+          <p>Used for reminders related to jobs, payments, follow-ups, service schedules, inventory, and backups.</p>
+        </div>
+        <div class="mini">
+          <strong>Contacts</strong>
+          <p>Used only if you choose to import clients from your device contacts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="backup">
+      <h2>Backup Responsibility</h2>
+      <p>
+        Aevion Pro is designed as an offline-first app. Because your data is stored locally, you are responsible for keeping backups of important business information.
+      </p>
+      <p>
+        We recommend exporting a backup at least once per week and saving it somewhere safe, such as iCloud Drive or another secure storage location.
+      </p>
+    </section>
+
+    <section id="terms">
+      <h2>Terms of Use</h2>
+      <p>
+        By using Aevion Pro, you agree to use the app responsibly and understand that it is a business management tool. You are responsible for the accuracy of the data you enter, including client information, project details, payment records, contracts, invoices, and reminders.
+      </p>
+      <p>
+        Aevion Pro is provided as-is. The developer is not responsible for lost data, missed reminders, business losses, incorrect entries, user mistakes, or issues caused by device failure, deleted backups, or app removal.
+      </p>
+      <p>
+        You should review all contracts, invoices, and business documents before using or sending them to clients. Aevion Pro does not provide legal, tax, financial, or accounting advice.
+      </p>
+    </section>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p>
+        For questions, support requests, or privacy-related inquiries, contact:
+      </p>
+      <a class="support-email" href="mailto:bitkovph@gmail.com">bitkovph@gmail.com</a>
+    </section>
+
+    <footer>
+      © 2026 Aevion Pro. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
